@@ -31,5 +31,10 @@ namespace UserRegUsingAnnotationsReflections
         [StringLength(13,ErrorMessage ="Please enter a valid phone number")]
         [Phone]
         public string PhoneNumber { get; set; }
+
+
+        [Required(ErrorMessage ="{0} is mandatory")]
+        [StringLength(30,MinimumLength =8,ErrorMessage ="Pasword should contain atleast 8 character and atmost 30 characters")]
+        public string Password { get; set; }
     }
 }

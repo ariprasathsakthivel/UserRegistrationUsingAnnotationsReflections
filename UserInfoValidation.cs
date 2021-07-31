@@ -14,6 +14,7 @@ namespace UserRegUsingAnnotationsReflections
             user1.LastName = "Prasath";
             user1.Email = "ariprasath3@gmail.com";
             user1.PhoneNumber = "91 9442556613";
+            user1.Password = "12345678";
 
             ValidationContext context = new ValidationContext(user1, null, null);
             List<ValidationResult> results = new List<ValidationResult>();
@@ -27,10 +28,11 @@ namespace UserRegUsingAnnotationsReflections
             }
             else
             {
-                Console.WriteLine(user1.FirstName);
-                Console.WriteLine(user1.LastName);
-                Console.WriteLine(user1.Email);
-                Console.WriteLine(user1.PhoneNumber);
+                Console.WriteLine("First Name {0}", user1.FirstName);
+                Console.WriteLine("Last Name {0}" ,user1.LastName);
+                Console.WriteLine("Email {0}" ,user1.Email);
+                Console.WriteLine("Phone number {0}" ,user1.PhoneNumber);
+                Console.WriteLine("Password {0}" ,user1.Password);
             }
         }
     }
