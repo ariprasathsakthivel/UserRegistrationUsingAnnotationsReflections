@@ -10,7 +10,8 @@ namespace UserRegUsingAnnotationsReflections
         public static void Display()
         {
             UserInfo user1 = new UserInfo();
-            user1.FirstName = "";
+            user1.FirstName = "Ari";
+            user1.LastName = "Prasath";
 
             ValidationContext context = new ValidationContext(user1, null, null);
             List<ValidationResult> results = new List<ValidationResult>();
@@ -25,6 +26,7 @@ namespace UserRegUsingAnnotationsReflections
             else
             {
                 Console.WriteLine(user1.FirstName);
+                Console.WriteLine(user1.LastName);
             }
         }
     }
