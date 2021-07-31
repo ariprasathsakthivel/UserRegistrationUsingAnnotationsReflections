@@ -25,5 +25,11 @@ namespace UserRegUsingAnnotationsReflections
         [StringLength(30,MinimumLength =10, ErrorMessage ="Please enter a valid email ID")]
         [EmailAddress]
         public string Email { get; set; }
+
+
+        [Required(ErrorMessage = "{0} is mandatory")]
+        [StringLength(13,ErrorMessage ="Please enter a valid phone number")]
+        [Phone]
+        public string PhoneNumber { get; set; }
     }
 }
