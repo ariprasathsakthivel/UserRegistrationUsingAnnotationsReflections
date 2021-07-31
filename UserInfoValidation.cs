@@ -12,6 +12,7 @@ namespace UserRegUsingAnnotationsReflections
             UserInfo user1 = new UserInfo();
             user1.FirstName = "Ari";
             user1.LastName = "Prasath";
+            user1.Email = "ariprasath3@gmail.com";
 
             ValidationContext context = new ValidationContext(user1, null, null);
             List<ValidationResult> results = new List<ValidationResult>();
@@ -27,6 +28,7 @@ namespace UserRegUsingAnnotationsReflections
             {
                 Console.WriteLine(user1.FirstName);
                 Console.WriteLine(user1.LastName);
+                Console.WriteLine(user1.Email);
             }
         }
     }

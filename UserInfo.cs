@@ -19,5 +19,11 @@ namespace UserRegUsingAnnotationsReflections
         [StringLength(50, MinimumLength = 3, ErrorMessage = "Last name must contain minimum 3 letters")]
         [RegularExpression(@"^[A-Z]{1}.+$", ErrorMessage = "The first letter should be in upper case")]
         public string LastName { get; set; }
+
+
+        [Required(ErrorMessage ="{0} is mandatory")]
+        [StringLength(30,MinimumLength =10, ErrorMessage ="Please enter a valid email ID")]
+        [EmailAddress]
+        public string Email { get; set; }
     }
 }
