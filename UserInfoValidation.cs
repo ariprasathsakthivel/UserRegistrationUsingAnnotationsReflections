@@ -14,7 +14,7 @@ namespace UserRegUsingAnnotationsReflections
             user1.LastName = "Prasath";
             user1.Email = "ariprasath3@gmail.com";
             user1.PhoneNumber = "91 9442556613";
-            user1.Password = "12345678";
+            user1.Password = "askdwfjnj";
 
             ValidationContext context = new ValidationContext(user1, null, null);
             List<ValidationResult> results = new List<ValidationResult>();
