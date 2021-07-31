@@ -35,7 +35,7 @@ namespace UserRegUsingAnnotationsReflections
 
         [Required(ErrorMessage ="{0} is mandatory")]
         [StringLength(30,MinimumLength =8,ErrorMessage ="Pasword should contain atleast 8 character and atmost 30 characters")]
-        [RegularExpression(@"^(?=.*[A-Z])(?=.*[0-9]).+$", ErrorMessage ="Password should contain atleast one upper case letter, one number")]
+        [RegularExpression(@"^(?=.*[A-Z])(?=.*[0-9])(?=.*[@$!%*?&]).+$", ErrorMessage ="Password should contain atleast one upper case letter, one number, one special character")]
         public string Password { get; set; }
     }
 }
