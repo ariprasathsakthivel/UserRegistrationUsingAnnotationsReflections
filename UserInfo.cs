@@ -5,7 +5,7 @@ using System.Text;
 
 namespace UserRegUsingAnnotationsReflections
 {
-    class UserInfo
+    public class UserInfo
     {
         [Required(ErrorMessage = "{0} is Required")]
         [DataType(DataType.Text,ErrorMessage ="First name can contain only characters")]

@@ -7,6 +7,8 @@ namespace UserRegUsingAnnotationsReflections
         static void Main(string[] args)
         {
             UserInfoValidation.Display();
+            Console.WriteLine("===========================================");
+            UserInfoReflection.MetdaData();
         }
     }
 }
