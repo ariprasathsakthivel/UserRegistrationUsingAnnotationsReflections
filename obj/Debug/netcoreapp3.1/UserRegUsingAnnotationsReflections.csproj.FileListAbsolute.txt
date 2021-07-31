@@ -1,0 +1,13 @@
+E:\C#\UserRegUsingAnnotationsReflections\bin\Debug\netcoreapp3.1\UserRegUsingAnnotationsReflections.exe
+E:\C#\UserRegUsingAnnotationsReflections\bin\Debug\netcoreapp3.1\UserRegUsingAnnotationsReflections.deps.json
+E:\C#\UserRegUsingAnnotationsReflections\bin\Debug\netcoreapp3.1\UserRegUsingAnnotationsReflections.runtimeconfig.json
+E:\C#\UserRegUsingAnnotationsReflections\bin\Debug\netcoreapp3.1\UserRegUsingAnnotationsReflections.runtimeconfig.dev.json
+E:\C#\UserRegUsingAnnotationsReflections\bin\Debug\netcoreapp3.1\UserRegUsingAnnotationsReflections.dll
+E:\C#\UserRegUsingAnnotationsReflections\bin\Debug\netcoreapp3.1\UserRegUsingAnnotationsReflections.pdb
+E:\C#\UserRegUsingAnnotationsReflections\obj\Debug\netcoreapp3.1\UserRegUsingAnnotationsReflections.csproj.AssemblyReference.cache
+E:\C#\UserRegUsingAnnotationsReflections\obj\Debug\netcoreapp3.1\UserRegUsingAnnotationsReflections.AssemblyInfoInputs.cache
+E:\C#\UserRegUsingAnnotationsReflections\obj\Debug\netcoreapp3.1\UserRegUsingAnnotationsReflections.AssemblyInfo.cs
+E:\C#\UserRegUsingAnnotationsReflections\obj\Debug\netcoreapp3.1\UserRegUsingAnnotationsReflections.csproj.CoreCompileInputs.cache
+E:\C#\UserRegUsingAnnotationsReflections\obj\Debug\netcoreapp3.1\UserRegUsingAnnotationsReflections.dll
+E:\C#\UserRegUsingAnnotationsReflections\obj\Debug\netcoreapp3.1\UserRegUsingAnnotationsReflections.pdb
+E:\C#\UserRegUsingAnnotationsReflections\obj\Debug\netcoreapp3.1\UserRegUsingAnnotationsReflections.genruntimeconfig.cache
